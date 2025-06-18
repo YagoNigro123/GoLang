@@ -1,0 +1,26 @@
+package POO
+
+// Go maneja los objetos de forma diferente a los lenguajes orientados a objetos tradicionales.
+// Aunque Go no es estrictamente orientado a objetos, ofrece características que permiten aplicar muchos de sus conceptos.
+
+// Características clave:
+
+// 1. Estructuras      -> Similares a las clases, permiten agrupar datos relacionados.
+// 2. Métodos          -> Funciones asociadas a tipos definidos (como structs).
+// 3. Interfaces       -> Definen comportamientos sin requerir herencia explícita.
+// 4. Composición      -> Alternativa a la herencia. Permite construir objetos complejos a partir de otros.
+
+// ---- PILARES DE LA PROGRAMACIÓN ORIENTADA A OBJETOS EN GO ----
+
+// Abstracción       -> Se logra ocultando detalles internos mediante interfaces.
+// Encapsulamiento   -> Se aplica usando convenciones: los identificadores en mayúscula son públicos; en minúscula, privados al paquete.
+// Herencia          -> No existe como tal, pero se puede emular mediante composición.
+// Polimorfismo      -> Se implementa naturalmente mediante interfaces.
+
+// ---- RESUMEN DE CONCEPTOS EN GO ----
+
+// Estructuras       -> Representan tipos personalizados con campos.
+// Métodos           -> Asociados a tipos, permiten definir comportamientos.
+// Encapsulamiento   -> Control de visibilidad mediante convenciones de nombres.
+// Composición       -> Reutilización de código y modelado de relaciones entre objetos.
+// Interfaces        -> Permiten definir contratos que cualquier tipo puede implementar.
