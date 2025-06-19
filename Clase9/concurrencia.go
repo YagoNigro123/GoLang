@@ -1,1 +1,5 @@
-package Clase9
+package main
+
+func main() {
+	
+}
